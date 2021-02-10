@@ -1,0 +1,32 @@
+{
+  "name": "nanaimg-sub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-img.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server-img.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "image-size": "^0.9.3",
+    "imagemin": "^7.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "sharp": "^0.26.3",
+    "util": "^0.12.3",
+    "uuid": "^8.3.1"
+  }
+}
